@@ -31,16 +31,12 @@
 <body>
 
     <!-- navigation menu -->
-    <nav></nav>
-
-    <!-- header hero block -->
-
     <nav class="container-menu menu-desktop menu-sticky">
         <a href="#"><img src="assets/images/website-logo.png" alt="website logo"></a>
         <ul>
-            <li><a href="#container-flex cols-2-split split-image-right theme-two">Wallet</a></li>
-            <li><a href="#">Social</a></li>
-            <li><a href="#">Academy</a></li>            
+            <li><a href="#wallet">Wallet</a></li>
+            <li><a href="#social">Social</a></li>
+            <li><a href="#academy">Academy</a></li>            
             <li><a href="#" id="btn-cta"><span>Create Account</span><i class="fas fa-arrow-right"></i></a></li>
         </ul>
         <div class="item-icon">
@@ -49,6 +45,7 @@
             <div class="bar3"></div>
         </div>
     </nav>
+    <!-- header hero block -->
 
     <header class="hero-block text-center-desktop text-center-mobile">
 
@@ -60,7 +57,7 @@
     
             <div class="container-btn">
                 
-                <a href="#" class="btn btn-secondary"><span>Learn more</span><i class="fas fa-arrow-down"></i></a>
+                <a href="#about" class="btn btn-secondary"><span>Learn more</span><i class="fas fa-arrow-down"></i></a>
                 <a href="#" class="btn btn-primary"><span>Create Account</span><i class="fas fa-user"></i></a>
             </div>
         
@@ -77,7 +74,7 @@
     <!-- main content with sections -->
     <main>
 
-        <section class="theme-one text-center">
+        <section class="theme-one text-center" id="about">
 
             <div class="upper-label">Our Mission</div>
             <h2>Crypto with Confidence</h2>
@@ -86,7 +83,7 @@
         </section>
             
 
-		<section class="container-flex cols-2-split split-image-right theme-two">
+		<section class="container-flex cols-2-split split-image-right theme-two" id="wallet">
 
             <div class="col-2">
                 <h2>Browser-based wallet</h2>
@@ -108,7 +105,7 @@
 
 	
 	
-		<section class="container-flex cols-2-split theme-three split-image-left">
+		<section class="container-flex cols-2-split theme-three split-image-left" id="social">
 
             <div class="col-2">
                 <h2>Social trading platform</h2>
@@ -123,7 +120,7 @@
         </section>
 
 
-		<section class="container-flex cols-2-split theme-four split-image-right">
+		<section class="container-flex cols-2-split theme-four split-image-right" id="academy">
 
             <div class="col-2">
                 <h2>Snazzy Academy</h2>
