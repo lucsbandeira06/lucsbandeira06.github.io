@@ -41,7 +41,8 @@
         <div class="js-box">
            
             <p>First Name: &nbsp;<input type="text" id="fName"></p>
-            <p><button onclick="showUserInput()">Show user input</button></p>
+            <p><button onclick="showUserInput()">Show user input</button>   
+                <button onclick="resetAll()">Reset All</button></p>
                     
             <p>You entered: </p>
             <div id="resultBox"></div>
@@ -68,6 +69,10 @@
             document.getElementById("resultBox").innerHTML = "<b>"+userInput+"<\/b>";
         }
 
+        function resetAll() {
+   document.getElementById("fName").value = "";
+   document.getElementById("resultBox").innerHTML = "";
+}
     </script>
 
 </body>

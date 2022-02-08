@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript lesson</title>
+    <meta name="description" content="JavaScript functions - exercises">
+ 
+
+</head>
+
+<body>
+
+
+
+<script>
+//Calling functions declarations 
+//you can call function declarations anywhere in the script as it is hoisted
+
+//sayGreetings();
+//sayGoodbye();
+
+//Defining functions declaration (hoisted)
+//function sayGreetings()
+//{
+//    console.log("Hello, world!");
+//}
+
+//function sayGoodbye()
+//{
+//    console.log("Goodbye!");
+//}
+
+
+//defining function expressions
+//const greeting = (function sayGreetings()
+//{
+//    console.log("Hello, world!");
+//});
+//calling the function through the variable name
+//greeting();
+
+//const goodbye = (function sayGoodbye()
+//{
+//    console.log("Goodbye!");
+//});
+//goodbye();
+
+//defining anonymous
+const greeting = function ()
+{
+    console.log("Hello, world!");
+}
+//calling the function through the variable name
+greeting();
+
+const goodbye = function ()
+{
+    console.log("Goodbye!");
+}
+goodbye();
+
+//arrow functions 
+const Goodbye = () => console.log("Hello, this is my arrow function");
+Goodbye();
+
+function sumA(a, b)
+{
+//console.log(`Output 1: ${a * b}`);
+return (a * b);
+}
+//sumA(3,9);
+
+const sumB = (function outbutB (a, b, c) {
+//console.log(`Output 2: ${a * b / c}`)
+return (a*b/c);
+});
+//sumB(3,6,2);
+
+const sumC = (a,b,c,d) => {
+//console.log(`Output 3: ${(a + b) * c / d}`)
+return (a+b+c/d);
+}
+//sumC(3,6,4,2);
+
+let answerA = sumA(3,9);
+
+let answerB = sumB(3,6,2);
+
+let answerC = sumC(3,6,4,2);
+
+console.log(`Answer A:  ${answerA}`);
+console.log(`Answer B:  ${answerB}`);
+console.log(`Answer C:  ${answerC}`);
+
+</script>
+
+</body>
+
+</html>
