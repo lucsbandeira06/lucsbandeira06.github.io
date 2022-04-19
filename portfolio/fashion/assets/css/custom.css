@@ -1,0 +1,22 @@
+/* Add custom here*/
+.theme-one { background-color: var(--green-000) }
+.theme-one a.btn-primary:link { background-color: var(--red-500) }
+.theme-one a.btn-primary:visited { background-color: var(--red-500) }
+.theme-one a.btn-primary:link { border-color: var(--red-500) }
+.theme-one a.btn-primary:visited { border-color: var(--red-500) }
+.theme-two { background-color: var(--white-000) }
+
+section.theme-dark.section-selector-1 { background-color: var(--green-700) }
+section.theme-dark.section-selector-3 { background-color: var(--green-700) }
+
+section.theme-dark.section-selector-3 h2 { color: var(--white-000) }
+
+section.theme-dark.section-selector-4 { background-color: var(--green-800) }
+section.theme-dark.section-selector-4 .col-1 h2 { color: var(--white-000) }
+section.theme-dark.section-selector-4 .col-1 h3 { color: var(--white-000) }
+section.theme-dark.section-selector-4 .col-4 { background-color: var(--trans-000) }
+section.theme-dark.section-selector-4 .col-4 p { color: var(--white-000) }
+.section-selector-4 .col-4 li { color: var(--white-000) }
+section.theme-dark.section-selector-4 .col-4 h3 { color: var(--white-000) }
+section.theme-dark.section-selector-4 .col-4 figure.icon { color: var(--white-000) }
+
