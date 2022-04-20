@@ -1,0 +1,47 @@
+body { font-family: 'Neucha', serif}
+
+.hero-block h1 {
+    font-size: calc(60px + (132 - 60) * ((100vw - 320px)/ (1600 - 320)));  
+    margin-bottom: 40px;
+    letter-spacing: 2px;
+ }
+                                             
+ .hero-block h2 {
+    font-size: calc(32px + (64 - 32) * ((100vw - 320px)/ (1600 - 320)));  
+    letter-spacing: 1px;
+ }
+
+section.theme-light.section-selector-1 p { color: var(--pink-800) } 
+section.theme-light.section-selector-1 li { color: var(--pink-800) } 
+section.theme-light.section-selector-1 {background-color: var(--white-000);}
+
+section p.standfirst {
+    font-size: calc(24px + (36 - 24) * ((100vw - 320px) / (1600 - 320)));   
+}
+
+section.theme-light.section-selector-2 { background-color: var(--pink-200) }
+section.theme-light.section-selector-2 h2 { color: var(--red-700) }
+
+.cols-2-split .col-2 h2 {
+    font-size: calc(32px + (58 - 32) * ((100vw - 320px) / (1600 - 320)));  
+    letter-spacing: 2px;
+ }
+                             
+ .cols-2-split .col-2 p {
+    font-size: calc(16px + (24 - 16) * ((100vw - 320px) / (1600 - 320)));  
+    letter-spacing: 1px;
+    line-height: 1.6;
+ }
+
+ section.theme-light.section-selector-3 { background-color: var(--green-200) }
+section.theme-light.section-selector-3 h2 { color: var(--red-700) }
+
+section.theme-light.section-selector-4 h2 { color: var(--white-000) }
+section.theme-light.section-selector-4 p { color: var(--white-000) } 
+section.theme-light.section-selector-4 li { color: var(--white-000) } 
+section.theme-light.section-selector-4 { background-color: var(--purple-800) }
+
+section.theme-light.section-selector-5 { background-color: var(--yellow-200) }
+section.theme-light.section-selector-5 h2 { color: var(--red-700) }
+
+
