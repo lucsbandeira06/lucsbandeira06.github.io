@@ -23,70 +23,105 @@
  <!-- Main page used to navigate to the projects I have done -->
 <body>
 
-    <nav class="container-menu menu-desktop text-center-mobile menu-dark">
-        <a href="#"><img src="assets/img/website-logo-sample.png" alt="website logo"></a>
-        <ul>
-            <li><a href="#">Projects</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#" id="btn-cta"><span>Home</span><i class="fas fa-arrow-right"></i></a></li>
-        </ul>
-        <div class="item-icon">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
-        </div>
-    </nav>
-    
-    <header class="hero-block text-center-desktop text-center-mobile hero-dark hero-bg-gradient">
+
+
+<nav class="container-menu menu-dark menu-desktop text-center-mobile">
+    <a href="#"><img src="assets/img/website-logo-sample.png" alt="website logo"></a>
+    <ul>
+
+        <li><a href="portfolio/index.html">Portfolio</a></li>
+        <li><a href="#" id="btn-cta" class="btn-rounded"><span>Contact</span><i class="fa-solid fa-envelope"></i></a></li>
+    </ul>
+    <div class="item-icon">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+    </div>
+</nav>
+
+<header class="hero-block theme-dark hero-bg text-center-desktop text-center-mobile">
+
+    <div class="container-upper-label"><span>My name is Lucas Bandeira.</span></div>
+
+	<div class="container-text">
+        <h1 class="text-shadow slide-in-right">Welcome to my website!</h1>
+        <h2 class="text-shadow slide-in-right">I am a Front End Developer who loves to build human friendly interfaces.</h2>
+    </div>
+
+	<div class="container-btn">
+		<a href="https://github.com/lucsbandeira06" class="btn btn-primary btn-rounded"><span>Github</span><i class="fa-brands fa-github"></i></a>
+	</div>
+
+
     
 
-        <div class="container-text">
-            <h1 class="">I am a Web Developer Lucas Bandeira</h1>
-            <h2 class="">Welcome to my portfolio where you can find some of my projects!</h2>
-        </div>
-    
-        <div class="container-btn">
-            <a href="https://github.com/lucsbandeira06" class="btn btn-primary btn-soft"><span>Github</span><i class="fa-brands fa-github"></i></a>
-        </div>
-    
-    </header>
+    <div class="container-media">
+		<img src="assets/img/hero-block-img.webp" alt="Placeholder image">
+	</div>
+
+	<div class="container-overlay"></div>
+
+</header>
+
+
 
 
  <!-- First Column of my portfolio website -->
-    <section class="theme-dark section-style-1 text-center-desktop">
-    
-<h2>HTML and CSS Projects</h2>
 
-        <p>Here are some projects that I worked on using html and css language.</p>
-        
-     <div class="flex-div">
-        <ul>
 
-        <li><a href="portfolio/exercises/Page-1.html"><i class="fa-solid fa-city"></i> A Tale of Two Cities</a></li>
-        <li><a href="portfolio/exercises/Page-2.html"><i class="fa-solid fa-cake-candles"></i> IBAT Chocolates</a></li>
-        <li><a href="portfolio/exercises/Page-3.html"><i class="fa-solid fa-cloud-rainbow"></i> Prince & Purple Rain</a></li>
+	<!-- section starts here -->
+	
+	<!-- section starts here -->
+	
+	<section class="container-flex section-selector-1 corners-soft theme-dark col-shadows">
 
-        </ul>
-        
-        <ul>      
-        
-        <li><a href="portfolio/exercises/Page-4.html"><i class="fa-solid fa-text"></i> Lorem Ipsum Text</a></li>
+		<div class="col-1 text-center">
+			<h2>HTML & CSS</h2>
+			<h3>Here are some of my projects using only HTML and CSS.</h3>
+		</div>
 
-        <li><a href="portfolio/exercises/Page-5.html"><i class="fa-solid fa-paintbrush"></i> Vincent van Gogh</a></li>
+		<div class="col-4">
+			<figure>
+				<a href="portfolio/van-gogh/index.html"><img src="assets/img/project-van-gogh.png" alt="Placeholder image"></a>
+			</figure>
+			<h3>Vincent Van Gogh</h3>
+			<p>OA summary of the life and work of Dutch artist Vincent van Gogh with an embeded video from YouTube.
+            </p>
+		</div>
 
-        <li><a href="portfolio/exercises/Page-6.html"><i class="fa-solid fa-clover"></i> Irish Tourism</a></li>
+		<div class="col-4">
+			<figure>
+				<a href="portfolio/smoothies/index.html"><img src="assets/img/project-smoothie.jpg" alt="Placeholder image"></a>
+			</figure>
+			<h3>Smooth Smoothies</h3>
+			<p>A multi-column, flexbox-based page layout and hero image with a tinted overlay.</p>
+		</div>
 
-        </ul>
+		<div class="col-4">
+			<figure>
+                <a href="portfolio/fashion/index.html"><img src="assets/img/project-fashion.jpg" alt="Placeholder image"></a>
+			</figure>
+			<h3>Snazzy Fashion</h3>
+			<p>A web page for a fashion retailer with a background video that plays in a continuous loop.</p>
+		</div>
 
-        <ul>
-            <li><a href="portfolio/exercises/Page-7.html">Smoothies</a></li>
-            <li><a href="portfolio/exercises/Page-8.html">Software Analytics</a></li>
-            <li><a href="exercises/page-9.html">The Box Model</a></li>
-        </ul>
-     </div>
-        
-    </section>
+		<div class="col-4">
+			<figure>
+                <a href="portfolio/crypto-wallet/index.html"><img src="assets/img/project-crypto-wallet.jpg" alt="Placeholder image"></a>
+			</figure>
+			<h3>Snazzy Crypto Wallet</h3>
+			<p>A web page for a crypto market reviewer content. with columns containing icons and embeded youtube video.</p>
+		</div>
+
+	</section>
+	
+	<!-- section ends here -->
+
+
+	
+	<!-- section ends here -->
+
+    <script src="assets/js/menu.js"></script>
 
 </body>
 
