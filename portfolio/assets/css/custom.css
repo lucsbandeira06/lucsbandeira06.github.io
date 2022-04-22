@@ -1,0 +1,29 @@
+.container-menu.menu-desktop { background-color: var(--trend-900) }
+.container-menu.menu-mobile { background-color: var(--trend-900) }
+.container-menu.menu-mobile ul.mobile-display { background-color: var(--trend-900) }
+.container-menu ul li a:focus,
+.container-menu ul li a:hover,
+.container-menu ul li a:active { color: var(--sky-400) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { color: var(--white-000) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { border-color: var(--fuchsia-900) }
+.container-menu a#btn-cta:link,
+.container-menu a#btn-cta:visited { background-color: var(--trans-000) }
+.container-menu a#btn-cta:focus,
+.container-menu a#btn-cta:hover,
+.container-menu a#btn-cta:active { border-color: var(--sky-400) }
+.hero-block a.btn-primary:link,
+.hero-block a.btn-primary:visited { background-color: var(--trans-000) }
+
+.hero-block a.btn-primary:link,
+.hero-block a.btn-primary:visited { color: var(--white-000) }
+
+
+section.theme-light.section-selector-1 { background-color: var(--trend-500) }
+section.theme-light.section-selector-1 .col-1 h2 { color: var(--white-000) }
+section.theme-light.section-selector-1 .col-1 h3 { color: var(--slate-100) }
+section.theme-light.section-selector-1 .col-3 h3 { color: var(--white-000) }
+section.theme-light.section-selector-1 .col-3 p { color: var(--slate-100) }
+.section-selector-1 .col-3 li { color: var(--slate-100) }
+
