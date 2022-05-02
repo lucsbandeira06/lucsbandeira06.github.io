@@ -33,5 +33,4 @@ section.theme-dark.section-selector-1 .col-4 p { color: var(--white-000) }
 .section-selector-1 .col-4 li { color: var(--white-000) }
 
 .container-flex.section-selector-1 {margin-top: 2px;}
-
-
+.container-flex.section-selector-1 {margin-bottom: 2px;}
